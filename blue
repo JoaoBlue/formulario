@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"> 
+    <title>Formulário</title>
+    <link rel="stylesheet" href="_css/formulario.css">
+</head>
+<body>
+    <div id="interface">
+    <form method="post" id="jcontato" action="joaooliveira_30@hotmail.com"> 
+        <fieldset id="form">
+        <legend>Formulário</legend>
+        <p><label for="rnome">Nome:</label><input type="text" name="jnome" id="rnome" size="21" maxlength="30" placeholder="Nome Completo"/></p>
+        <p><label for="remail">Email:</label><input type="email" name="jemail" id="remail" size="22" maxlength="50" placeholder="Email"/></p>
+        <p><label for="rnum">Telefone:</label><input type="tel" name="jnum" id="rnum" size="20" maxlength="13" placeholder="Telefone" min="0" max="99999"/></p>
+        <p><label for="rend">Endereço:</label><input type="text" name="jend" id="rend" size="20" maxlength="60" placeholder="Endereço"/></p>
+        <p id="mens"><label for="rmens">Mensagem:</label></p>
+        <textarea name="jmens" id="rmens" cols="35" rows="8" placeholder="Digite aqui a sua mensagem"></textarea>
+            <div id="comeco">
+            <fieldset>
+            <button style="background-color: black;">
+            <p><input type="submit" name="jenvi" id="renvi" size="20" maxlength="10" placeholder="Enviar"/></p>
+            </button>
+            </fieldset>
+            </div>
+            <div id="final">
+            <fieldset>
+            <button style="background-color: black;">
+            <p><input type="reset" name="jrese" id="rrese" size="20" maxlength="10" placeholder="Apagar"></p>
+            </button>
+            </fieldset>
+            </div>
+        </fieldset>
+        </form>
+        </div>
+</body>
